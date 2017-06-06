@@ -1,0 +1,32 @@
+body {
+    background: url('../img/swirl_pattern.png');
+}
+#controlPanel {
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #EEE;
+    border: 1px solid #999;
+    border-radius: 8px;
+}
+
+#traffic-light {
+    height: 550px;
+    width: 200px;
+    float: left;
+    background-color: #333;
+    border-radius: 40px;
+    margin: 30px 0;
+}
+.btn {
+    display: block;
+    margin: 20px auto;
+}
+.bulb {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 25px auto;
+    transition: background 500ms;
+}
