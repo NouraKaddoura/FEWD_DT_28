@@ -1,16 +1,16 @@
-$('#goButton').click(function(){
+$('#greenButton').click(function(){
     resetLights();
-    $('#goLight').css('background-color','green');
+    $('#greenLight').css('background-color','green');
 });
 
-$('#slowButton').click(function(){
+$('#yellowButton').click(function(){
     resetLights();
-    $('#slowLight').css('background-color','yellow');
+    $('#yellowLight').css('background-color','yellow');
 });
 
-$('#stopButton').click(function(){
+$('#redButton').click(function(){
     resetLights();
-    $('#stopLight').css('background-color','red');
+    $('#redLight').css('background-color','red');
 });
 
 $('#resetButton').click(function(){

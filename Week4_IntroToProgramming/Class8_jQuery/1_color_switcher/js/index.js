@@ -30,8 +30,8 @@ function reset() {
 
 /* Events */
 $('#blueButton').on('click', switchBlue);
-
 $('#yellowButton').on('click', switchYellow);
+//Create an event on the "refresh" button that calls a function called "reset"
 
 /* Functions */
 function switchBlue(){
@@ -43,6 +43,7 @@ function switchYellow(){
     $('body').css('backgroundColor','#f0ad4e');
     $('body').css('color','black');
 }
+//Create a function "reset" which sets the backgroundColor to white and the text to black
 
 
 
