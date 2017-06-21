@@ -2,11 +2,15 @@ body {
     padding: 20px;
     text-align: center;
 }
-body.dark {
+body.dark, body.blue {
     background: url('../images/dark.png') top right no-repeat no-repeat black;
     background-size: 400px auto;
     background-color: black;
 }
+body.blue {
+    background-color: blue;
+}
+
 #lightSwitch {
     cursor: pointer;
     height: 200px;
