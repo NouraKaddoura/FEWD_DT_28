@@ -1,0 +1,19 @@
+body {
+    padding: 20px;
+    text-align: center;
+}
+body.dark {
+    background: url('../images/dark.png') top right no-repeat no-repeat black;
+    background-size: 400px auto;
+    background-color: black;
+}
+#lightSwitch {
+    cursor: pointer;
+    height: 200px;
+    margin-top: 100px;
+}
+#wallplate {
+    background: url('../images/wallplate.png') top center no-repeat no-repeat;
+    background-position: cover;
+    height: 600px;
+}
