@@ -1,0 +1,20 @@
+Come up with 2-3 ideas for a final project.
+
+Final project should have HTML, CSS and JavaScript.
+
+Your JavaScript will need at least 5 events
+
+Idea #1
+Title:
+One Sentence Description:
+Details:
+
+Idea #2
+Title:
+One Sentence Description:
+Details:
+
+Idea #3 (Optional)
+Title:
+One Sentence Description:
+Details:

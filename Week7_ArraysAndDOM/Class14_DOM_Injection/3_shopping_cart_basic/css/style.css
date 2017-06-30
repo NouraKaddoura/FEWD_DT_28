@@ -1,0 +1,11 @@
+body {
+    padding: 50px;
+}
+
+.img-thumbnail {
+    height: 100px;
+}
+
+.badge {
+    margin-right: 8px;
+}
