@@ -1,7 +1,7 @@
 $(function(){
 
     // Set a variable
-    var instant_pour = true;
+    var instant_pour = false;
     var breakfast_type = "";
 
     // Handle events
@@ -15,6 +15,7 @@ $(function(){
         // Invoke functions
         start();
         pour('Almond Milk', bowl);
+        pour('Frosted Flakes', bowl);
         eat(bowl);
     });
 
@@ -28,7 +29,9 @@ $(function(){
         // Invoke functions
         start();
         pour('Almond Milk', bowl, function(bowlWithStuff){
-            eat(bowlWithStuff);
+            pour('Frosted Flakes', bowl, function(bowlWithMoreStuff){
+                eat(bowlWithStuff);
+            });
         });
     });
 

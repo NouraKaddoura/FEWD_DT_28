@@ -21,8 +21,8 @@ $(function(){
             // NOT
             // var lat = response.value.value.value.value.value
             
-            var lat = null;
-            var lng = null;
+            var lat = response.results[0].geometry.location.lat;
+            var lng = response.results[0].geometry.location.lng;
 
             $('#lat').html(lat);
             $('#long').html(lng);
