@@ -31,6 +31,10 @@ footer {
     background-size: cover;
     opacity: .5;
 }
+#quote {
+    font-size: 36px;
+    font-color: black;
+}
 .affix {
     width: 100%;
     top: 0;
@@ -49,5 +53,8 @@ footer {
 }
 .navbar li a:hover {
     text-decoration: underline;
+}
+.person {
+    height: 500px;
 }
 
