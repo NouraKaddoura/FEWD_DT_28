@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  margin: 3em;
+  padding: 0;
+  background-color: #DDD;
+}
+h3 {
+    color: #666;
+}
+.btn {
+    margin-top: 10px;
+}
