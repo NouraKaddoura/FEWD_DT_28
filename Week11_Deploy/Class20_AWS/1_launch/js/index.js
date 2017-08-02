@@ -55,7 +55,7 @@ $(function(){
                    'description': 'Sees everything in green'
                },
                {
-                   'file': 'David.jpg',
+                   'file': 'david.jpg',
                    'name': 'David Pettijohn',
                    'title': 'Expert movie watcher',
                    'description': 'Binge watching movies all day',
